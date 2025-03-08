@@ -24,5 +24,5 @@ server.use(validator)
 server.use(router)
 
 server.listen(3001, () => {
-  console.log('JSON Server is running')
+  console.log('JSON Server is running on http://localhost:3001/anecdotes')
 })
